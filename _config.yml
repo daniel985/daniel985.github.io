@@ -9,7 +9,7 @@ title:               My blog
 tagline:             'A Jekyll theme'
 description:         ''
 url:                 https://daniel985.github.io
-baseurl:             ''
+baseurl:             'https://daniel985.github.io'
 paginate:            5
 
 # About/contact
@@ -21,4 +21,3 @@ author:
 # Custom vars
 version:             1.0.0
 
-theme: jekyll-theme-time-machine
