@@ -1,12 +1,23 @@
 # Permalinks
-permalink:          /blog/:year/:month/:day/:title/
+permalink:          pretty
 
 # Setup
 title:              Daniel's blog
+tagline:            daniel985
 baseurl:            'https://daniel985.github.io'
+url:                https://daniel985.github.io
+paginate:           1
+sass:
+    sass:           _sass
+    style:          :compressed
 
 # About/contact
-author:             Daniel Wang
-url:                https://daniel985.github.io
-email:              wangzhanoop@163.com
+author:             
+    name:           Daniel Wang
+    url:            https://daniel985.github.io
+    email:          wangzhanoop@163.com
 
+# Gems
+gems:
+    - jekyll-paginate
+    - jekyll-gist
