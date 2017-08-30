@@ -1,23 +1,12 @@
 # Permalinks
-#
-# Use of `absolute_permalinks` ensures post links from the index work properly.
-permalink:           pretty
-absolute_permalinks: true
+permalink:          /blog/:year/:month/:day/:title/
 
 # Setup
-title:               My blog
-tagline:             'A Jekyll theme'
-description:         ''
-url:                 https://daniel985.github.io
-baseurl:             'https://daniel985.github.io'
-paginate:            5
+title:              Daniel's blog
+baseurl:            'https://daniel985.github.io'
 
 # About/contact
-author:
-  name:              Daniel Wang
-  url:               https://daniel985.github.io
-  email:             wangzhanoop@163.com
-
-# Custom vars
-version:             1.0.0
+author:             Daniel Wang
+url:                https://daniel985.github.io
+email:              wangzhanoop@163.com
 
